@@ -24,7 +24,12 @@
     ],
     "rules": {
         "prettier/prettier":"error",
-        "react/jsx-filename-extension":[1, {"extension":[".js", ".jsx"]}]
-
+        "react/jsx-filename-extension":[1, {"extension":[".js", ".jsx"]}],
+        "react/prop-types": "off",
+        "react/jsx-props-no-spreding":["error", {
+          "html": "ignore",
+          "custom":"ignore",
+          "exceptions":[""]
+        }]
     }
 }
